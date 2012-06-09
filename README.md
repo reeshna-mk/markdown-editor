@@ -1,8 +1,8 @@
 #Markdown-Editor
 ======
 
-## INTRODUCTION
-Markdown Editor is a platform independent web based Javascript HTML WYSIWYG editor
+## Introduction
+Markdown Editor is a platform independent web based Javascript HTML WYSIWYG markdown editor
 
 ## Prerequisites
   * HTML5
