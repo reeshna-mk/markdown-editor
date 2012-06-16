@@ -4,9 +4,9 @@
 </head>
 <body>
 <script type="text/javascript" src="js/core.js"></script>
-<input type="text" value="Enter text" id="text1"/>
-<input type="button" value="italics"/>
-<input type="button" value="Bold"/>
-<input type="button" value="Underlined"/>
+<textarea rows="3" cols="25" id="textarea"></textarea>
+<input type="button" value="italics" onclick="format(document.getElementById('textarea'),'[%]','[%]')"/>
+<input type="button" value="Bold" onclick="format(document.getElementById('textarea'),'[**]','[**]')"/>
+<input type="button" value="Heading" onclick="format(document.getElementById('textarea'),'[#]','[#]')"/>
 </body>
 </html>
